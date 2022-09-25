@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name "keebio")(type "Legacy")(uri "${KIPRJMOD}/keebio-components/keebio.lib")(options "")(descr ""))
+  (lib (name "lis2dw12")(type "KiCad")(uri "${KIPRJMOD}/lis2dw12.kicad_sym")(options "")(descr ""))
+)

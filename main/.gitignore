@@ -1,0 +1,5 @@
+*-cache
+asetniopy-main-backups/
+*.FCStd1
+*.dxf
+*.bak
