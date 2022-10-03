@@ -1,0 +1,5 @@
+*-cache
+*-backups/
+*.FCStd1
+*.dxf
+*.bak
