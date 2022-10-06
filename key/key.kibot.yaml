@@ -137,3 +137,25 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
+  - name: 'render'
+    comment: "PCB render"
+    type: pcbdraw
+    options:
+      bottom: true
+      show_components: 'all'
+  - name: 'render_top_3d'
+    comment: "PCB render"
+    type: render_3d
+    options:
+      ray_tracing: true
+      wait_ray_tracing: 60
+  - name: 'render_bottom_3d'
+    comment: "PCB render"
+    type: render_3d
+    options:
+      ray_tracing: true
+      wait_ray_tracing: 60
+      view: bottom
+  - name: 'render_step'
+    comment: "PCB STEP export"
+    type: step
