@@ -1,0 +1,29 @@
+name: Build
+
+on:
+  push:
+    paths:
+      - ".github/workflows/build.yml"
+      - "key/**"
+      - "main/**"
+      - "power-reset/**"
+  pull_request:
+    paths:
+      - ".github/workflows/build.yml"
+      - "key/**"
+      - "main/**"
+      - "power-reset/**"
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    container:
+      image: docker.io/setsoft/kicad_auto:dev_k6
+    strategy:
+      matrix:
+        pcb: [main, key, power-reset]
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Build (${{ matrix.pcb }})
+        run: cd ${{ matrix.pcb }} && kibot -vv
