@@ -32,4 +32,6 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: asetniopy-${{ matrix.pcb }}
-          path: ${{ matrix.pcb }}/JLCPCB/*.zip
+          path: |
+            ${{ matrix.pcb }}/JLCPCB/*
+            !${{ matrix.pcb }}/JLCPCB/*.zip
