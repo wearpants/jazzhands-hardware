@@ -449,5 +449,7 @@
       ""
     ]
   ],
-  "text_variables": {}
+  "text_variables": {
+    "COMMIT": "deadbeef"
+  }
 }
