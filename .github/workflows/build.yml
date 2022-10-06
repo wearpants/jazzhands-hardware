@@ -20,6 +20,7 @@ jobs:
     container:
       image: docker.io/setsoft/kicad_auto:dev_k6
     strategy:
+      fail-fast: false
       matrix:
         pcb: [main, key, power-reset]
     steps:
