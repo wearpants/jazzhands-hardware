@@ -141,12 +141,19 @@ outputs:
     options:
       bottom: true
       show_components: 'all'
-  - name: 'render_3d'
+  - name: 'render_top_3d'
     comment: "PCB render"
     type: render_3d
     options:
       ray_tracing: true
       wait_ray_tracing: 30
+  - name: 'render_bottom_3d'
+    comment: "PCB render"
+    type: render_3d
+    options:
+      ray_tracing: true
+      wait_ray_tracing: 30
+      view: bottom
   - name: 'render_step'
     comment: "PCB STEP export"
     type: step
