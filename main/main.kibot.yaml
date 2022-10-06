@@ -135,3 +135,12 @@ outputs:
         hide_pcb_info: true
         hide_stats_info: true
         quote_all: true
+  - name: 'render'
+    comment: "PCB render"
+    type: pcbdraw
+    options:
+      bottom: true
+      show_components: 'all'
+  - name: 'render_3d'
+    comment: "PCB render"
+    type: render_3d
