@@ -28,10 +28,16 @@ jobs:
         uses: actions/checkout@v2
       - name: Build
         run: cd ${{ matrix.pcb }} && kibot -vv
-      - name: Archive
+      - name: Archive Gerbers
         uses: actions/upload-artifact@v2
         with:
-          name: asetniopy-${{ matrix.pcb }}
+          name: asetniopy-${{ matrix.pcb }}-gerbers
           path: |
             ${{ matrix.pcb }}/JLCPCB/*
             !${{ matrix.pcb }}/JLCPCB/*.zip
+      - name: Archive Assembly Files
+        uses: actions/upload-artifact@v2
+        with:
+          name: asetniopy-${{ matrix.pcb }}-assembly
+          path: |
+            ${{ matrix.pcb }}/*.csv
