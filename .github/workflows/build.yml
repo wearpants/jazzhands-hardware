@@ -27,7 +27,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
       - name: Build
-        run: cd ${{ matrix.pcb }} && kibot -vv
+        run: cd ${{ matrix.pcb }} && kibot -v
       - name: Archive Gerbers
         uses: actions/upload-artifact@v2
         with:
