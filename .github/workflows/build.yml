@@ -41,3 +41,11 @@ jobs:
           name: asetniopy-${{ matrix.pcb }}-assembly
           path: |
             ${{ matrix.pcb }}/*.csv
+      - name: Archive Renders
+        uses: actions/upload-artifact@v2
+        with:
+          name: asetniopy-${{ matrix.pcb }}-renders
+          path: |
+            ${{ matrix.pcb }}/*.png
+            ${{ matrix.pcb }}/*.svg
+            ${{ matrix.pcb }}/*.step
