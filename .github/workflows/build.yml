@@ -26,5 +26,10 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Build (${{ matrix.pcb }})
+      - name: Build
         run: cd ${{ matrix.pcb }} && kibot -vv
+      - name: Archive
+        uses: actions/upload-artifact@v2
+        with:
+          name: asetniopy-${{ matrix.pcb }}
+          path: ${{ matrix.pcb }}/JLCPCB/*.zip
