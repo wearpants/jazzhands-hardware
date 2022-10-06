@@ -146,13 +146,13 @@ outputs:
     type: render_3d
     options:
       ray_tracing: true
-      wait_ray_tracing: 30
+      wait_ray_tracing: 60
   - name: 'render_bottom_3d'
     comment: "PCB render"
     type: render_3d
     options:
       ray_tracing: true
-      wait_ray_tracing: 30
+      wait_ray_tracing: 60
       view: bottom
   - name: 'render_step'
     comment: "PCB STEP export"
