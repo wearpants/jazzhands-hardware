@@ -144,3 +144,6 @@ outputs:
   - name: 'render_3d'
     comment: "PCB render"
     type: render_3d
+    options:
+      ray_tracing: true
+      wait_ray_tracing: 30
