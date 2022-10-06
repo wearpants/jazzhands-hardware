@@ -141,6 +141,11 @@ outputs:
     comment: "PCB render"
     type: pcbdraw
     options:
+      show_components: 'all'
+  - name: 'render_bottom'
+    comment: "PCB render"
+    type: pcbdraw
+    options:
       bottom: true
       show_components: 'all'
   - name: 'render_top_3d'
