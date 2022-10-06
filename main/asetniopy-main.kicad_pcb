@@ -328,6 +328,11 @@
       (scale (xyz 0.395 0.395 0.395))
       (rotate (xyz 90 180 180))
     )
+    (model "${KIPRJMOD}/3d-models/ARDUINO PRO MICRO.STEP"
+      (offset (xyz -14 -7.7 4.5))
+      (scale (xyz 1 1 1))
+      (rotate (xyz -90 0 0))
+    )
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2_Pad" (layer "F.Cu")
