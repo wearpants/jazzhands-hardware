@@ -379,7 +379,14 @@
         "microvia_drill": 0.1,
         "name": "Power",
         "nets": [
-          "BAT-"
+          "BAT+",
+          "BAT+_r",
+          "BAT-",
+          "BAT-_r",
+          "GND",
+          "GND1",
+          "VCC",
+          "VCCQ"
         ],
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "schematic_color": "rgba(0, 0, 0, 0.000)",
