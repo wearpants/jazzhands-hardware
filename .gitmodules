@@ -5,5 +5,5 @@
 	path = main/keebio-components
 	url = https://github.com/keebio/keebio-components.git
 [submodule "main/Keebio-Parts.pretty"]
-	path = main/Keebio-Parts.pretty
+	path = Keebio-Parts.pretty
 	url = https://github.com/keebio/Keebio-Parts.pretty.git

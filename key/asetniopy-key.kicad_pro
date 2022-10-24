@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "asetniopy.kicad_pro",
+    "filename": "asetniopy-key.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "asetniopy-key.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
