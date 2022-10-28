@@ -12,6 +12,7 @@ filters:
     rotations:
       - ["^LGA-12.*", 90.0]
       - ["^LED_.*", 180.0]
+      - ["^PQFN50.*", 180.0]
 
   - name: only_jlc_parts
     comment: 'Only parts with JLC code'
