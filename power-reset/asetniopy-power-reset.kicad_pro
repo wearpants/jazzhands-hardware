@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "asetniopy-power-reset.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
