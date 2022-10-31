@@ -464,7 +464,7 @@
     (property "Datasheet" "~" (id 3) (at 163.83 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC Part Numbre" "C221841" (id 4) (at 163.83 73.025 0)
+    (property "LCSC Part Number" "C221841" (id 4) (at 163.83 73.025 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid e7b08ef2-0b6a-4178-9424-bab27edcfee8))
