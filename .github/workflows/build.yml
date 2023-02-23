@@ -31,20 +31,20 @@ jobs:
       - name: Archive Gerbers
         uses: actions/upload-artifact@v3
         with:
-          name: asetniopy-${{ matrix.pcb }}-gerbers
+          name: jazzhands-${{ matrix.pcb }}-gerbers
           path: |
             ${{ matrix.pcb }}/JLCPCB/*
             !${{ matrix.pcb }}/JLCPCB/*.zip
       - name: Archive Assembly Files
         uses: actions/upload-artifact@v3
         with:
-          name: asetniopy-${{ matrix.pcb }}-assembly
+          name: jazzhands-${{ matrix.pcb }}-assembly
           path: |
             ${{ matrix.pcb }}/*.csv
       - name: Archive Renders
         uses: actions/upload-artifact@v3
         with:
-          name: asetniopy-${{ matrix.pcb }}-renders
+          name: jazzhands-${{ matrix.pcb }}-renders
           path: |
             ${{ matrix.pcb }}/*.png
             ${{ matrix.pcb }}/*.svg

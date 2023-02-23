@@ -346,7 +346,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "asetniopy-key.kicad_pro",
+    "filename": "jazzhands-power-reset.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -380,7 +380,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "asetniopy-key.step",
+      "step": "jazzhands-power-reset.step",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -425,7 +425,7 @@
   },
   "sheets": [
     [
-      "8b1484e8-1698-4196-9f9c-fc67d143789c",
+      "acbc01e0-5659-406c-badc-420401806341",
       ""
     ]
   ],
