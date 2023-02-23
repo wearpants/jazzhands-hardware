@@ -2,4 +2,7 @@
 *-backups/
 *.FCStd1
 *.dxf
+*.csv
+*.step
 *.bak
+JLCPCB/
